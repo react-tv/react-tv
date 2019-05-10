@@ -100,11 +100,11 @@ function run(root, device) {
 
   if (!device) {
     console.log('');
-    console.log(chalk.dim('Up Emulator...'));
-
-    runEmulator(webOS_TV_SDK_ENV);
-
-    console.log(chalk.yellow(' LG WebOS Emulator 3.0.0 succefull running'));
+    console.log(chalk.dim('Choice a device...'));
+    execSync(`ares-setup-device --list`);
+    console.log(
+      chalk.yellow(' Choice a device and run react-tv-cli run-webos <device>')
+    );
   }
 
   let attemps = 0;

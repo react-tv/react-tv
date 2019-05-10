@@ -95,6 +95,12 @@ $ yarn global add react-tv-cli
 | `Sony PS4` | not started yet | x |
 | `Nintendo Switch` | not started yet | x |
 
+##### TVs testeds, not official support
+| Target Platform | Status |
+| --- | --- |
+| `Philips TVs since 2018.2 models` | app running | 
+| `AOC TVs since 2018 models` | app running |
+
 ### Developing for WebOS
 
 <p align="center"><img src="http://ksassets.timeincuk.net/wp/uploads/sites/54/2015/07/lg-webOS-2-0-2015-Main-1.jpg" /></p>
